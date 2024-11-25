@@ -1,11 +1,10 @@
-//Range of int data type -2147483648-2147483647
 class G{
-    public static void main(String[] args){
-    //int x = 12;
-    // int x = 012; //octal number
-    // int x = 0x12;//hexadecimal number
-    // int x = 0xa2;//hexadecimal number
-
-       System.out.println(x);
+    void abc(){
+        if(12 < 23){
+            int a = 20;
+        }
+        int a = 2;
     }
 }
+//Declaration of instance level variable with "same name and same data type" can be done but only after the declaration of the local variable.
+

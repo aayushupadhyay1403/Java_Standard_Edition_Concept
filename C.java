@@ -1,9 +1,25 @@
-class C{
-    public static void main(String[] args){
-        System.out.println(12 < 23);
-        System.out.println(12 > 23);
 
-        //in java a special data type boolean is designed with default values "true" and "false".
-        //in c language there is no such data type so it returns the result in the form of "0" or "1". 
+class C{
+
+    void abc(){
+        while(true){
+            char g = '#';
+            System.out.println(g);
+        }
+        System.out.println(g);//local variable of any block are not accessible outside that block.
+    }
+
+    public static void main(String[] args){
+        C x = new C();
+
+        x.abc();
     }
 }
+// C.java:7: error: cannot find symbol
+//         System.out.println(g);
+//                            ^
+//   symbol:   variable g
+//   location: class C
+// 1 error
+
+
