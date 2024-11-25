@@ -5,7 +5,7 @@ class Dog extends Animal{}
 class Cow extends Animal{}
 class BDog extends Dog{}
 
-class H{
+class H1{
     static Animal pro(){
         Animal a = new Animal();
         Cat c = new Cat();

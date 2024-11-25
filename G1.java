@@ -1,4 +1,4 @@
-class G{
+class G1{
     static int pro(){
         // byte b = 89;
         // short s = 45;

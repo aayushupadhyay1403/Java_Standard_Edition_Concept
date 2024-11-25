@@ -1,4 +1,4 @@
-class F{
+class F1{
     int pro(){
         return;
     }
